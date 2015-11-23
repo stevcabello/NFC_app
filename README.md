@@ -1,6 +1,8 @@
 # NFC_app
 
-This app handles two kinds of users: Teacher and Student.
+This app was developed with the intention to show how to handle the communication between an android app and external web service and database, as well as to show other kind of utility NFC could have.
+
+The app handles two kinds of users: Teacher and Student.
 
 The idea of the app is to allow to a Teacher upload a Test (**see Note 1**) which will be activated (visible to the students) 
 by the Teacher 5 or 10 minutes before the class ends, and the Students will access to the Test through the app and will complete
