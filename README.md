@@ -11,6 +11,7 @@ All tests will be sent to the Teacher once the time is over. The Teacher can see
 indivual marks, but instead a total mark indicating how well or bad the entire course is.
 
 ***However, what happen if a student has a smartphone but no access to internet?***
+
 Here is where we made use of the NFC technology.
 A Teacher will need to carry a NFC tag and copy the Test into the tag (**see Note 2**), The Student will be able to read the 
 Test from the tag (just placing the tag near to the smartphone) and start the Test. When the Test is completed, this will be 
