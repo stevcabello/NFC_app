@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/iniciosesion"
+    tools:context=".LoginActivity" >
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.03"
+            android:orientation="horizontal"
+            android:padding="6px">
+
+        </LinearLayout> 
+            
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.035"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="4px" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.012"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="1px" >
+	            
+                <EditText
+                    android:id="@+id/etusuario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="25dp"
+                    android:ems="10"
+                    android:gravity="left|center"
+                    android:hint="@string/EditxtUsuario"
+                    android:inputType="textPersonName"
+                    android:textColor="#000000" >
+
+                	<requestFocus/>
+
+            	</EditText>
+	            
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.012"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="2px" >
+                
+                <EditText
+                    android:id="@+id/etcontrasenia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignLeft="@+id/EditxtUsuario"
+                    android:layout_centerVertical="true"
+                    android:ems="10"
+                    android:gravity="left|center"
+                    android:hint="@string/EditxtContrasena"
+                    android:inputType="textPassword"
+                    android:textColor="#000000" >
+
+            	</EditText>
+	            
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.011"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="1px" >
+                
+                <Button
+                    android:id="@+id/btnInicioSesion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1px"
+                    android:layout_marginTop="1px"
+                    android:layout_weight="0.03"
+                    android:background="#2E325C"
+                    android:gravity="center"
+                    android:text="@string/btnInicioSesion"
+                    android:textColor="#FEFEFE"
+                    android:textStyle="bold" />
+	            
+            </LinearLayout>
+
+        </LinearLayout>
+        
+        
+        
+        
+        
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.03"
+            android:gravity="center"
+            android:orientation="vertical" >
+            
+             
+			             <LinearLayout
+			            android:layout_width="wrap_content"
+			            android:layout_height="0dip"
+			            android:layout_weight="0.01"
+			            android:gravity="right"
+			            android:orientation="horizontal" >
+				            
+			             <TextView
+			                 android:id="@+id/txRegistrese"
+			                 android:layout_width="match_parent"
+			                 android:layout_height="match_parent"
+			                 android:layout_marginBottom="10px"
+			                 android:layout_marginTop="50px"
+			                 android:layout_weight="0.10"
+			                 android:gravity="right"
+			                 android:text="¿Do not have an account?..Sign up"
+			                 android:textColor="#F0A31C"
+			                 android:textSize="@dimen/tamano"
+			                 android:textStyle="bold" />
+			             
+			        </LinearLayout>
+             
+             
+        </LinearLayout>
+           
+               
+     </LinearLayout>
+     
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/pc/AndroidStudioProjects/AppNFC/app/src/main/res/layout/activity_login.xml -->

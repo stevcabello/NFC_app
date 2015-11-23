@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondotest"
+    tools:context=".TeacherMenuActivity" >
+
+    <Button
+        android:id="@+id/btntestlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnscoretest"
+        android:layout_alignRight="@+id/btnscoretest"
+        android:layout_above="@+id/tvempty"
+        android:textColor="#fff"
+        android:text="Check Test" />
+    
+    <TextView
+        android:id="@+id/tvempty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="#fff"
+        android:text="" />
+        
+
+    
+    <Button
+        android:id="@+id/btnscoretest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvempty"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:text="Test Scores" />
+
+</RelativeLayout><!-- From: file:/C:/Users/pc/AndroidStudioProjects/AppNFC/app/src/main/res/layout/activity_teacher_menu.xml -->

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appnfc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+
+     <uses-permission android:name="android.permission.INTERNET" /> 
+    <uses-permission android:name="android.permission.NFC" />
+     <uses-feature android:name="android.hardware.nfc" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name="com.example.appnfc.TestActivity"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name="com.example.appnfc.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.example.appnfc.StudentRegisterActivity"
+            android:label="@string/title_activity_student_register" >
+        </activity>
+        <activity
+            android:name="com.example.appnfc.TeacherRegisterActivity"
+            android:label="@string/title_activity_teacher_register" >
+        </activity>
+        <activity
+            android:name="com.example.appnfc.LoginActivity"
+            android:label="@string/app_name" >
+			
+			 <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+           
+            
+            
+        </activity>
+        <activity
+            android:name="com.example.appnfc.TeacherSubjectActivity"
+            android:label="@string/title_activity_subject" >
+        </activity>
+        <activity
+            android:name="com.example.appnfc.StudentSubjectActivity"
+            android:label="@string/title_activity_student_subject" >
+        </activity>
+        <activity
+            android:name="com.example.appnfc.TestListActivity"
+            android:label="@string/title_activity_test_list" >
+        </activity>
+        <activity
+            android:name="com.example.appnfc.TeacherMenuActivity"
+            android:label="@string/title_activity_teacher_menu" >
+        </activity>
+        <activity
+            android:name="com.example.appnfc.TeacherScoreTestActivity"
+            android:label="@string/title_activity_teacher_score_test" >
+        </activity>
+        <activity
+            android:name="com.example.appnfc.StudentTestListActivity"
+            android:label="@string/title_activity_student_test_list" >
+        </activity>
+        
+        <activity
+          android:name="com.example.appnfc.TagViewer"
+          android:label="@string/app_name" >
+		  
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        
+        
+    </application>
+
+</manifest>

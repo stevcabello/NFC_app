@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/hsv01" >
+    
+	<RadioGroup
+	    android:id="@+id/news_radiogroup"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+    />   
+   
+</HorizontalScrollView>
+<!-- From: file:/C:/Users/pc/AndroidStudioProjects/AppNFC/app/src/main/res/layout/fragment_hsv_encuesta.xml -->

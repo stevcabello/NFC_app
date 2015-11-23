@@ -1,0 +1,174 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/estudiante"
+    tools:context="${relativePackage}.${activityClass}" >
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="0dip"
+             android:layout_weight="0.005"
+             android:gravity="center"
+             android:orientation="horizontal" >
+
+             <EditText
+                 android:id="@+id/etNombre"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:ems="10"
+                 android:hint="Name"
+                 android:inputType="textPersonName"
+                 android:textColor="#FEFEFE">
+                 <requestFocus />
+             </EditText>
+        
+             </LinearLayout>
+	      
+       		<LinearLayout
+	     	    android:layout_width="match_parent"
+	     	    android:layout_height="0dip"
+	     	    android:layout_weight="0.005"
+	     	    android:gravity="center"
+	     	    android:orientation="horizontal" >
+
+       			<EditText
+       			    android:id="@+id/etApellido"
+       			    android:layout_width="wrap_content"
+       			    android:layout_height="wrap_content"
+       			    android:layout_weight="1"
+       			    android:ems="10"
+       			    android:hint="Lastname"
+       			    android:inputType="textPersonName"
+       			    android:textColor="#FEFEFE" >
+       			</EditText>
+	        
+	     	</LinearLayout> 
+       	
+       		<LinearLayout
+	     	    android:layout_width="match_parent"
+	     	    android:layout_height="0dip"
+	     	    android:layout_weight="0.005"
+	     	    android:gravity="center"
+	     	    android:orientation="horizontal" >
+
+	        	<EditText
+	        	    android:id="@+id/etusuario"
+	        	    android:layout_width="match_parent"
+	        	    android:layout_height="wrap_content"
+	        	    android:layout_weight="1"
+	        	    android:ems="10"
+	        	    android:hint="@string/EditUsuario"
+	        	    android:inputType="textPersonName"
+	        	    android:textColor="#FEFEFE" >
+       			
+       			</EditText>
+       			
+	     	</LinearLayout>  
+	     	
+       		<LinearLayout
+	     	    android:layout_width="match_parent"
+	     	    android:layout_height="0dip"
+	     	    android:layout_weight="0.005"
+	     	    android:gravity="center"
+	     	    android:orientation="horizontal" >
+
+       			<EditText
+       			    android:id="@+id/etcontrasenia"
+       			    android:layout_width="match_parent"
+       			    android:layout_height="wrap_content"
+       			    android:layout_weight="1"
+       			    android:ems="10"
+       			    android:hint="@string/EditPassEst"
+       			    android:inputType="textPassword"
+       			    android:textColor="#FEFEFE" />
+       			
+	     	</LinearLayout> 
+	     	
+       		<LinearLayout
+	     	    android:layout_width="match_parent"
+	     	    android:layout_height="0dip"
+	     	    android:layout_weight="0.005"
+	     	    android:gravity="center"
+	     	    android:orientation="horizontal" >
+
+       			<EditText
+       			    android:id="@+id/etreptcontrasenia"
+       			    android:layout_width="match_parent"
+       			    android:layout_height="wrap_content"
+       			    android:layout_weight="1"
+       			    android:ems="10"
+       			    android:hint="@string/EditPassRepEst"
+       			    android:inputType="textPassword"
+       			    android:textColor="#FEFEFE" />
+       			
+	     	</LinearLayout> 
+	     	
+       		<LinearLayout
+	     	    android:layout_width="match_parent"
+	     	    android:layout_height="0dip"
+	     	    android:layout_weight="0.005"
+	     	    android:gravity="center"
+	     	    android:orientation="horizontal" >
+
+       			<EditText
+       			    android:id="@+id/etemail"
+       			    android:layout_width="match_parent"
+       			    android:layout_height="wrap_content"
+       			    android:layout_weight="1"
+       			    android:ems="10"
+       			    android:hint="@string/EditEmail"
+       			    android:inputType="textPersonName"
+       			    android:textColor="#FEFEFE" >
+
+       			</EditText>
+
+       			       			
+	     	</LinearLayout> 
+	     	
+       		<LinearLayout
+	     	    android:layout_width="match_parent"
+	     	    android:layout_height="0dip"
+	     	    android:layout_weight="0.005"
+	     	    android:gravity="center"
+	     	    android:orientation="horizontal" >
+
+       			<EditText
+       			    android:id="@+id/etNumeroMatricula"
+       			    android:layout_width="wrap_content"
+       			    android:layout_height="wrap_content"
+       			    android:layout_weight="1"
+       			    android:ems="10"
+       			    android:hint="Student ID"
+       			    android:textColor="#FEFEFE"
+       			    android:inputType="number" />
+       			
+	     	</LinearLayout> 
+	     	
+       		<LinearLayout
+       		    android:layout_width="match_parent"
+       		    android:layout_height="0dip"
+       		    android:layout_weight="0.009"
+       		    android:gravity="right|center"
+       		    android:orientation="horizontal" >
+
+       			<Button
+       			    android:id="@+id/btnRegistrar"
+       			    android:layout_width="wrap_content"
+       			    android:layout_height="wrap_content"
+       			    android:background="#000"
+					android:textColor="#FFF"
+       			    android:text="Save" />
+       			       			
+	     	</LinearLayout> 
+        
+      </LinearLayout>
+
+</RelativeLayout>
+
