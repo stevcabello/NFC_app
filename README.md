@@ -51,3 +51,15 @@ I have provide three dummy Subjects (the name of the subjects are in spanish)
 * TEORIA ELECTROMAGNETICA I      ---> Electromagnetic Theory
 * PROCESOS ESTOCASTICOS          ---> Stochastic Processes
 * FUNDAMENTOS DE REDES DE DATOS  ---> Networking
+
+
+## Communication ##
+
+The app reads and writes data from/to an external SQL database by using a RESTful web service (in asp.net).
+
+The methods for calling the web service's functions are in the files inside the folder ***businessobject*** in the *com.example.nfc* package
+
+
+
+
+
