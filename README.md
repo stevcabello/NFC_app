@@ -63,6 +63,12 @@ The app reads and writes data from/to an external SQL database by using a RESTfu
 The methods for calling the web service's functions are in the files inside the folder ***businessobject*** in the *com.example.nfc* package
 
 
+## Web Site and Web Service ##
+The code for the web site is available on : https://github.com/stevcabello/NFCwebadmin.git
+
+The code for the web service is available on: https://github.com/stevcabello/RESTAppNFC.git
+
+
 
 
 
