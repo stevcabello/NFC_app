@@ -69,6 +69,10 @@ The code for the web site is available on : https://github.com/stevcabello/NFCwe
 The code for the web service is available on: https://github.com/stevcabello/RESTAppNFC.git
 
 
+## DB ##
+The SQL 2008 R2 database is available as a backup file on: https://github.com/stevcabello/NFCdatabase.git
+
+
 
 
 
