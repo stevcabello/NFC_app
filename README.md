@@ -64,13 +64,13 @@ The methods for calling the web service's functions are in the files inside the 
 
 
 ## Web Site and Web Service ##
-The code for the web site is available on : https://github.com/stevcabello/NFCwebadmin.git
+The code for the web site is available on : https://github.com/stevcabello/NFCwebadmin
 
-The code for the web service is available on: https://github.com/stevcabello/RESTAppNFC.git
+The code for the web service is available on: https://github.com/stevcabello/RESTAppNFC
 
 
 ## DB ##
-The SQL 2008 R2 database is available as a backup file on: https://github.com/stevcabello/NFCdatabase.git
+The SQL 2008 R2 database is available as a backup file on: https://github.com/stevcabello/NFCdatabase
 
 
 
